@@ -1,0 +1,8 @@
+library/*
+solution/*/packages/
+solution/*/*.suo
+solution/*/*.gpState
+src/*/obj/
+src/*/bin/
+src/*/bin/debug/
+

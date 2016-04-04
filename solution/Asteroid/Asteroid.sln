@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Logger", "..\..\src\Asteroid.Logger\Asteroid.Logger.csproj", "{ECAECAD7-5439-408E-8B3F-C6DD87239813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Logger.EnterpriseLibrary", "..\..\src\Asteroid.Logger.EnterpriseLibrary\Asteroid.Logger.EnterpriseLibrary.csproj", "{47B40B8E-3F38-484B-A49A-908E2BD0CCF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Logger.EnterpriseLibrary.ConsoleListener", "..\..\src\Asteroid.Logger.EnterpriseLibrary.ConsoleListener\Asteroid.Logger.EnterpriseLibrary.ConsoleListener.csproj", "{7652DC5C-0136-48B6-BB1F-DC634CE88CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Framework", "..\..\src\Asteroid.Framework\Asteroid.Framework.csproj", "{AC57F130-F74A-41B6-A594-6617CFB9DADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Data", "..\..\src\Asteroid.Data\Asteroid.Data.csproj", "{95BB266E-4C36-4BAB-8F67-0B7120692175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid.Data.Hibernate", "..\..\src\Asteroid.Data.Hibernate\Asteroid.Data.Hibernate.csproj", "{71C658C3-93CD-4257-9530-5CAD6396F0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECAECAD7-5439-408E-8B3F-C6DD87239813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAECAD7-5439-408E-8B3F-C6DD87239813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAECAD7-5439-408E-8B3F-C6DD87239813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAECAD7-5439-408E-8B3F-C6DD87239813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B40B8E-3F38-484B-A49A-908E2BD0CCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B40B8E-3F38-484B-A49A-908E2BD0CCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B40B8E-3F38-484B-A49A-908E2BD0CCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B40B8E-3F38-484B-A49A-908E2BD0CCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7652DC5C-0136-48B6-BB1F-DC634CE88CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7652DC5C-0136-48B6-BB1F-DC634CE88CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7652DC5C-0136-48B6-BB1F-DC634CE88CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7652DC5C-0136-48B6-BB1F-DC634CE88CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC57F130-F74A-41B6-A594-6617CFB9DADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC57F130-F74A-41B6-A594-6617CFB9DADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC57F130-F74A-41B6-A594-6617CFB9DADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC57F130-F74A-41B6-A594-6617CFB9DADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BB266E-4C36-4BAB-8F67-0B7120692175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BB266E-4C36-4BAB-8F67-0B7120692175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BB266E-4C36-4BAB-8F67-0B7120692175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BB266E-4C36-4BAB-8F67-0B7120692175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C658C3-93CD-4257-9530-5CAD6396F0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C658C3-93CD-4257-9530-5CAD6396F0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C658C3-93CD-4257-9530-5CAD6396F0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C658C3-93CD-4257-9530-5CAD6396F0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
